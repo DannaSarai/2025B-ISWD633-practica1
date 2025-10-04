@@ -18,11 +18,15 @@ Descargar la imagen **hello-world**
 
 **¿Qué es nginx**
 # COMPLETAR 
+```
 docker pull nginx
+```
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
+```
 docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
@@ -32,8 +36,7 @@ docker images
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
-<img width="697" height="125" alt="image" src="https://github.com/user-attachments/assets/89a2ef3a-5a39-4cab-8e4e-4a4be419a7b7" />
-
+<img width="783" height="147" alt="image" src="https://github.com/user-attachments/assets/1bba167c-d970-4107-b988-340b75561560" />
 
 **Identificadores**
 
@@ -49,9 +52,16 @@ docker inspect <nombre imagen>:<tag>
 
 Inspeccionar la imagen hello-world 
 # COMPLETAR
+```
+docker inspect hello-world
+docker inspect nginx:alpine
+```
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
 # COMPLETAR
+```
+sha256
+```
 
 ### Filtrar imágenes
 
@@ -78,4 +88,7 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 
 ```
 docker rmi -f <nombre imagen>:<tag>
+```
+```
+docker rmi -f hello-world:latest
 ```
