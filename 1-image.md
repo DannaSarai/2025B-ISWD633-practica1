@@ -18,9 +18,11 @@ Descargar la imagen **hello-world**
 
 **¿Qué es nginx**
 # COMPLETAR 
+docker pull nginx
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
+docker pull nginx:alpine
 
 ### Listar imágenes
 
